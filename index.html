@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Demo Site</title>
+	<style>
+		body {
+		            margin: 0;
+		            padding: 0;
+		            font-family: Arial, sans-serif;
+		            background-image: url('https://fastly.picsum.photos/id/866/536/354.jpg?hmac=tGofDTV7tl2rprappPzKFiZ9vDh5MKj39oa2D--gqhA'); /* Add your background image URL here */
+		            background-size: cover;
+		            background-position: center;
+		            height: 100vh;
+		            display: flex;
+		            justify-content: center;
+		            align-items: center;
+		            color: #fff;
+		            text-align: center;
+		        }
+		
+		        .content {
+		            max-width: 600px;
+		            padding: 20px;
+		            background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+		            border-radius: 10px;
+		        }
+		
+		        h1 {
+		            margin-top: 0;
+		        }
+		
+		        .button {
+		            display: inline-block;
+		            background-color: #4CAF50;
+		            color: white;
+		            padding: 15px 25px;
+		            text-align: center;
+		            font-size: 16px;
+		            cursor: pointer;
+		            border-radius: 5px;
+		            text-decoration: none;
+		        }
+		
+		        .button:hover {
+		            background-color: #45a049;
+		        }
+		
+		        .url-link {
+		            color: #fff;
+		            text-decoration: none;
+		        }
+		
+		        .url-link:hover {
+		            text-decoration: underline;
+		        }
+		
+		        .blink {
+		            animation: blinker 1s linear infinite;
+		        }
+		
+		        @keyframes blinker {
+		            50% {
+		                opacity: 0;
+		            }
+		        }
+	</style>
+</head>
+
+<body>
+	<div class="content">
+		<h1>Welcome to Our Demo Site</h1>
+		<p>This is a simple demonstration site.</p>
+		<p class="blink" style="font-size: 24px; color: yellow;">50% off on courses related to Target</p> <a href="https://example.com" class="button">Click Me!</a>
+		<p>Visit our website: <a href="https://example.com" class="url-link">example.com</a>
+		</p>
+	</div>
+</body>
+
+</html>
